@@ -1,11 +1,11 @@
-﻿using GrpcCategoryServer.Models;
+﻿using GrpcSE1Server.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace GrpcCategoryServer.Data
+namespace GrpcSE1Server.Data
 {
     public class DataContext : DbContext
     {
@@ -14,7 +14,7 @@ namespace GrpcCategoryServer.Data
 
         }
 
-        public DbSet<Category> CategoryList { get; set; }
-        public DbSet<Product> ProductList { get; set; }
+        public DbSet<Models.Category> CategoryList { get; set; }
+        public DbSet<Models.Product> ProductList { get; set; }
     }
 }

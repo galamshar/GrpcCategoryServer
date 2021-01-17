@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace GrpcCategoryServer.Models
+namespace GrpcSE1Server.Models
 {
     public class Product
     {
